@@ -1,6 +1,8 @@
 # FsCMS #
 
 [![Join the chat at https://gitter.im/FsCMS/FsCMS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/FsCMS/FsCMS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build status](https://ci.appveyor.com/api/projects/status/8wgpay9i8ylfmmr7?svg=true)](https://ci.appveyor.com/project/JeroldHaas/fscms)
+
 
 An F#-based CMS.
 
