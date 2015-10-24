@@ -30,8 +30,8 @@ Note that a combination where the client-server boundary between WebSharper clie
 ### Client ###
 * JS
 * TypeScript
-* Gluon
 * WebSharper
+* FunScript
 
 ### Templating ###
 * FsRazor (needs love to update to current standards)
