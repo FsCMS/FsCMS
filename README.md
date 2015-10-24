@@ -38,6 +38,7 @@ Note that a combination where the client-server boundary between WebSharper clie
     * Include the use of HttpHelpers
     * Provide familiarity
 * DotLiquid (markdown style)
+* WebSharper
 
 ### Front-End vs. Back-End JS Library ###
 * Back-end
