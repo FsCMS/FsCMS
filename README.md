@@ -39,6 +39,7 @@ Note that a combination where the client-server boundary between WebSharper clie
     * Provide familiarity
 * DotLiquid (markdown style)
 * WebSharper
+* SignalR
 
 ### Front-End vs. Back-End JS Library ###
 * Back-end
@@ -59,6 +60,7 @@ Note that a combination where the client-server boundary between WebSharper clie
     * NoSQL databases
         * MongDB
         * CouchDB
+        * RavenDB
     * SQL databases
         * MSSQL
         * MySQL
