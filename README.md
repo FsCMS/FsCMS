@@ -58,7 +58,7 @@ Note that a combination where the client-server boundary between WebSharper clie
 * Create abstracted DAL to include support for:
     * Filesystem databases
     * NoSQL databases
-        * MongDB
+        * MongoDB
         * CouchDB
         * RavenDB
     * SQL databases
