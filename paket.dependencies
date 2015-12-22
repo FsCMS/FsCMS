@@ -1,0 +1,55 @@
+source https://nuget.org/api/v3
+source https://nuget.org/api/v2
+
+#
+# Build
+#
+nuget IntelliFactory.Build
+nuget FAKE
+
+#
+# Testing
+#
+nuget WebSharper.Testing
+
+
+#
+# Templating Systems
+#
+
+# DotLiquid
+nuget DotLiquid
+nuget DotLiquid.Mailer
+nuget DotLiquid.Modules
+
+# Razor & FsRazor
+#nuget FsRazor
+//nuget Microsoft.Web.Razor // ??
+
+#
+# Web Service
+#
+
+# Nancy
+nuget Nancy
+nuget Nancy.ViewEngines.DotLiquid
+nuget Fancy
+
+# Suave
+nuget Suave
+nuget Suave.DotLiquid
+
+# WebSharper
+nuget WebSharper
+nuget WebSharper.Formlets
+#nuget WebSharper.FsRazor
+nuget WebSharper.Piglets
+nuget WebSharper.Forms
+nuget WebSharper.Suave
+nuget WebSharper.Templates
+nuget WebSharper.UI.Next
+nuget WebSharper.UI.Next.Formlets
+nuget WebSharper.OWIN
+nuget WebSharper.Owin.WebSocket
+nuget ExtSharper
+nuget Intellifactory.Reactive
