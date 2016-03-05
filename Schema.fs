@@ -40,6 +40,7 @@ module Schema =
     type AuditedAction = 
         | Create
         | Modify
+        | Update
         | Delete
     
     type AuditLog = 
