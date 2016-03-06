@@ -39,7 +39,6 @@ module Schema =
     
     type AuditedAction = 
         | Create
-        | Modify
         | Update
         | Delete
     
