@@ -1,4 +1,4 @@
-namespace FsCms.Core
+namespace FsCms
 
 open System
 open System.Collections.Generic

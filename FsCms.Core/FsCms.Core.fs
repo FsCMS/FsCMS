@@ -1,4 +1,4 @@
-namespace FsCms.Core
+namespace FsCms
 
-type FsCms.Core() = 
-    member this.X = "F#"
+module Core = 
+    let X = "F#"

@@ -1,4 +1,4 @@
-namespace FsCMS.Suave
+namespace FsCMS
 
-module A =
-    member this.X = "F#"
+module Suave =
+    let X = "F#"
