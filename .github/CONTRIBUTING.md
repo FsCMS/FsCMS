@@ -9,4 +9,4 @@
 
 ## Setup
 
-Run `dotnet restore` in the root directory to restore all packages.
+Run `dotnet restore` in the root directory to setup Paket and restore all packages.
