@@ -11,7 +11,7 @@ nuget FAKE
 # Testing
 #
 nuget WebSharper.Testing
-
+nuget Suave.Testing
 
 #
 # Templating Systems
@@ -21,10 +21,12 @@ nuget WebSharper.Testing
 nuget DotLiquid
 nuget DotLiquid.Mailer
 nuget DotLiquid.Modules
+nuget Suave.DotLiquid
 
 # Razor & FsRazor
 #nuget FsRazor
 //nuget Microsoft.Web.Razor // ??
+#nuget Suave.Razor
 
 #
 # Web Service
@@ -36,8 +38,12 @@ nuget Nancy.ViewEngines.DotLiquid
 nuget Fancy
 
 # Suave
+source https://nuget.org/api/v2
 nuget Suave
 nuget Suave.DotLiquid
+nuget Suave.RouteTypeProvider
+nuget Suave.OpenSSL
+#nuget Suave.Experimental
 
 # WebSharper
 nuget WebSharper
@@ -53,3 +59,11 @@ nuget WebSharper.OWIN
 nuget WebSharper.Owin.WebSocket
 nuget ExtSharper
 nuget Intellifactory.Reactive
+
+# Logging
+nuget Logary
+nuget Logary.Adapters.Suave
+nuget Logary.Services.SuaveReporter
+nuget FSharp.Core
+nuget Expecto
+nuget FSharp.NET.Sdk

@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "restore",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "restore",
+                "src/PATH_TO_FSPROJ"
+            ],
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build",
+            "command": "dotnet",
+            "type": "shell",
+            "group": "build",
+            "args": [
+                "build",
+                "src/PATH_TO_FSPROJ"
+            ],
+            "dependsOn": "restore",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
