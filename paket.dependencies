@@ -21,7 +21,6 @@ nuget Suave.Testing
 nuget DotLiquid
 nuget DotLiquid.Mailer
 nuget DotLiquid.Modules
-nuget Suave.DotLiquid
 
 # Razor & FsRazor
 #nuget FsRazor
