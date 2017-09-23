@@ -6,6 +6,10 @@
 
 An F#-based CMS with a high level of modularity utilizing OWIN.
 
+## Contributing
+
+Want to help? See our [contribution guide](./.github/CONTRIBUTING.md)!
+
 ## Pluggable Architecture ##
 Note that a combination where the client-server boundary between WebSharper client-generated code and other back-ends aren't _yet_ supported (progress underway), however The CMS should have a modular architecture permitting the mixture of items in the following categories.
 
